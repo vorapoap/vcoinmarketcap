@@ -1,0 +1,3 @@
+[submodule "public/lib/stacktable.js"]
+	path = public/lib/stacktable.js
+	url = https://github.com/johnpolacek/stacktable.js.git

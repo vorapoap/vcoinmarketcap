@@ -1,0 +1,124 @@
+Header Column (JSON)
+
+{
+  "rank": {
+    "visible": true,
+    "sortable": true,
+    "label": "Rank"
+  },
+  "id": {
+    "visible": false
+  },
+  "symbol": {
+    "visible": true,
+    "label": "Symbol",
+    "sortable": true,
+    "format": "strtoupper"
+  },
+  "name": {
+    "image": "https://files.coinmarketcap.com/static/img/coins/16x16/{id}.png",
+    "visible": true,
+    "sortable": true,
+    "label": "Name"
+  },
+  "price_usd": {
+    "visible": true,
+    "sortable": true,
+    "label": "Price"
+  },
+  "price_btc": {
+    "visible": false
+  },
+  "24h_volume_usd": {
+    "visible": true,
+    "sortable": true,
+    "label": "24h Volume",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "market_cap_usd": {
+    "visible": true,
+    "sortable": true,
+    "label": "Market Cap",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "available_supply": {
+    "visible": true,
+    "sortable": true,
+    "label": "Available Supply",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "total_supply": {
+    "visible": true,
+    "sortable": true,
+    "label": "Total Supply",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "percent_change_1h": {
+    "visible": true,
+    "sortable": true,
+    "label": "Percent Change (1H)",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "percent_change_24h": {
+    "visible": true,
+    "sortable": true,
+    "label": "Percent Change (24H)",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "percent_change_7d": {
+    "visible": true,
+    "sortable": true,
+    "label": "Percent Change (7D)",
+    "numformat": {
+      "decimals": 2,
+      "dec_point": ".",
+      "thousands_sep": ","
+    }
+  },
+  "last_updated": {
+    "visible": false
+  }
+}
+
+
+
+Pagination JSON
+
+{
+  "show_all": false,
+  "end_size": 1,
+  "mid_size": 2,
+  "prev_next": true,
+  "prev_text": "« Previous",
+  "next_text": "Next »",
+  "type": "plain",
+  "add_args": false,
+  "add_fragment": "",
+  "before_page_number": "",
+  "after_page_number": "",
+  "per_page":10
+}
